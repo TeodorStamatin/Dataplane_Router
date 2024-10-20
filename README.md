@@ -1,6 +1,6 @@
-## Homework 1 PCOM
+# Homework 1 PCOM
 
-#### This project was about implementing a router in C, which would handle Ethernet frames with IP packets
+## This project was about implementing a router in C, which would handle Ethernet frames with IP packets
 
 Firstly, we allocate a buffer where we are going to store the
 data frame. Then we allocate memory for the routing table, which
@@ -24,3 +24,5 @@ as the router ip. If they match (ip_hdr->daddr == router_ip), it
 means the packet is destined for the router. In this case, the program
 sends an icmp reply message. After all these steps, we send the packet
 and wait for another one.
+
+### More - https://pcom.pages.upb.ro/tema1/
